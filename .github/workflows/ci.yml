@@ -32,7 +32,7 @@ jobs:
                echo "waiting for mongodb.."
                sleep 2
                done
-               echo "mongodb is upsss"
+               echo "mongodb is up"
          -  name: seed mongodb
             working-directory: ./backend
             run: |
