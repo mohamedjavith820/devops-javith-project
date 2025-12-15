@@ -5,7 +5,7 @@ on:
       branches: [main]
 jobs:
    mongo-init:
-      runs-on: ubuntu latest
+      runs-on: ubuntu-latest  
       env:
         port: ${{ secrets.PORT }}
         MONGO_URI: ${{ secrets.MONGO_URI }}
