@@ -8,7 +8,7 @@ jobs:
 
       steps:
       - name:  depoly via ssh key
-        uses: applyboy/ssh-action@v1  
+        uses: appleboy/ssh-action@v1  
         with:
          host: ${{secrets.EC2_HOST}}
          username: ${{secrets.EC2_USER}}
